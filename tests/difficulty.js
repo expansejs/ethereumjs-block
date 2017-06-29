@@ -1,4 +1,4 @@
-const testing = require('expansejs-testing')
+const testing = require('ethereumjs-testing')
 const ethUtil = require('expansejs-util')
 const basicTests = testing.tests.basicTests
 const tape = require('tape')
