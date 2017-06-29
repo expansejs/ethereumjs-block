@@ -1,6 +1,6 @@
 const tape = require('tape')
-const params = require('ethereum-common')
-const utils = require('ethereumjs-util')
+const params = require('expanse-common')
+const utils = require('expansejs-util')
 const Header = require('../header.js')
 
 tape('[Block]: Header functions', function (t) {

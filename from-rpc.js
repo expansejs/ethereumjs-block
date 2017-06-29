@@ -1,7 +1,7 @@
 'use strict'
 const Block = require('./')
-const Transaction = require('ethereumjs-tx')
-const ethUtil = require('ethereumjs-util')
+const Transaction = require('expansejs-tx')
+const ethUtil = require('expansejs-util')
 
 module.exports = blockFromRpc
 

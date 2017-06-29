@@ -1,7 +1,7 @@
 const tape = require('tape')
-const utils = require('ethereumjs-util')
+const utils = require('expansejs-util')
 const Block = require('../index.js')
-const params = require('ethereum-common')
+const params = require('expanse-common')
 
 tape('[Block]: Block functions', function (t) {
   t.test('should create with default constructor', function (st) {

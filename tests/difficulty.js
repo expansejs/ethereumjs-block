@@ -1,5 +1,5 @@
-const testing = require('ethereumjs-testing')
-const ethUtil = require('ethereumjs-util')
+const testing = require('expansejs-testing')
+const ethUtil = require('expansejs-util')
 const basicTests = testing.tests.basicTests
 const tape = require('tape')
 const Block = require('../')

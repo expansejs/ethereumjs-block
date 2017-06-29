@@ -1,11 +1,11 @@
-const ethUtil = require('ethereumjs-util')
-const Tx = require('ethereumjs-tx')
+const ethUtil = require('expansejs-util')
+const Tx = require('expansejs-tx')
 const Trie = require('merkle-patricia-tree')
 const BN = ethUtil.BN
 const rlp = ethUtil.rlp
 const async = require('async')
 const BlockHeader = require('./header')
-const params = require('ethereum-common/params.json')
+const params = require('expanse-common/params.json')
 
 /**
  * Creates a new block object
